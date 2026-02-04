@@ -1,0 +1,32 @@
+{
+    "AS_Button_b3854e17576543d5857baa56f679a9b9": {
+        "id": "AS_Button_b3854e17576543d5857baa56f679a9b9",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmBrowse",
+            "type": "forms",
+            "platform": null,
+            "KUID": "i131aad894714f3c9c2791336aacec13"
+        },
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__b74a7fea635e4eb7be0f1dee605ea96f",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "browseDocument",
+            "display": "browseDocument",
+            "inputparams": [{
+                "name": "slot",
+                "value": "\"B\""
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

@@ -1,0 +1,16 @@
+{
+  "meta" : "{\"1904e888-5661-481b-b7d6-c57662ec9feb\":{\"isUpdated\":false}}",
+  "subType" : "customapp",
+  "description" : "Bhargavi_POC",
+  "version" : "1.0",
+  "intSvcs" : [ {
+    "name" : "BoxFiles",
+    "version" : "1.0",
+    "etag" : "3cd34ecf-e934-468e-b57c-60de771017ab"
+  }, {
+    "name" : "FileCompare",
+    "version" : "1.0",
+    "etag" : "83a2bab6-5478-4e9e-936b-940c043ee36c"
+  } ],
+  "identitySvcConf" : "{\"session_idle_timeout_mins\":20,\"session_max_duration_mins\":360,\"show_security_attributes\":false,\"is_integrity_enabled\":false,\"auto_extend\":true}"
+}

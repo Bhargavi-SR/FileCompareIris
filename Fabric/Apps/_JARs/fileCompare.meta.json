@@ -1,0 +1,5 @@
+{
+  "dependentJars" : [ "pdfbox-3.0.3.jar", "pdfbox-io-3.0.3.jar", "fontbox-3.0.3.jar" ],
+  "mapType" : "java.util.HashMap",
+  "empty" : true
+}

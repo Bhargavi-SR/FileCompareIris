@@ -1,0 +1,91 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sece23d7344140888b573c6bfe22936e",
+    "_top_": {
+        "type": "string",
+        "value": "-1dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "areflexpropsreferenced": false,
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "clipbounds": false,
+    "containerweight": 0,
+    "dataDiffs": {
+        "flxHdr": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "dc3bf683535c43b9ba96616a8df916f4",
+                "srcKUID": "g1258ff5103e4323bf208db3e0d87501",
+                "wType": "FlexContainer"
+            }
+        },
+        "lblHdr": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ie4933fd78e64fb6bc1e2da48bd12b9e",
+                "srcKUID": "e5c2ff22ec944b16816feed63b77a4cd",
+                "wType": "Label"
+            },
+            "responsiveData": {},
+            "text": "Compare Files"
+        },
+        "mainHdr": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "d886cfd60b4842848bb2328c63fed999",
+                "srcKUID": "idd4f8e25477470bbd0e0bdc101a36ff",
+                "wType": "FlexContainer"
+            }
+        }
+    },
+    "enablescrolling": true,
+    "focusskin": "s055b30cc8544a4092521d1a3c930a38",
+    "id": "mainHdr",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "d886cfd60b4842848bb2328c63fed999",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "frmCompare",
+    "pf": "frmCompare",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "idd4f8e25477470bbd0e0bdc101a36ff",
+    "wType": "UserWidgetInstance",
+    "zindex": 1
+}

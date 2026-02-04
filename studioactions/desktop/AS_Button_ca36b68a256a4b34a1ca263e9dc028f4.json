@@ -1,0 +1,30 @@
+{
+    "AS_Button_ca36b68a256a4b34a1ca263e9dc028f4": {
+        "id": "AS_Button_ca36b68a256a4b34a1ca263e9dc028f4",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmHome",
+            "type": "forms",
+            "platform": null,
+            "KUID": "e0869e39673c4663ba7fa4dd7e547059"
+        },
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__add3f783dab54dac8701b1859c886754",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmCompare",
+            "formKUID": "ba0be841e6644bdaa1f1e23c5c8694e1",
+            "projectName": "CompareFiles",
+            "mappings": {},
+            "mappingsOrder": [],
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }]
+    }
+}
