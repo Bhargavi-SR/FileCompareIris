@@ -3,11 +3,11 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "40dp"
+        "value": "60dp"
     },
     "_left_": {
         "type": "string",
-        "value": "200dp"
+        "value": "5%"
     },
     "_margin_": [
         0,
@@ -21,12 +21,12 @@
         0,
         0
     ],
-    "_placeholder_": "File Type",
+    "_placeholder_": "e.g. DOC",
     "_skin_": "s4645e8c12c047a5a7f68ce9ccad8dbc",
     "_text_": "",
     "_top_": {
         "type": "string",
-        "value": "15dp"
+        "value": "12%"
     },
     "_width_": {
         "type": "string",
@@ -45,18 +45,19 @@
         "placeholderSkin": "sc53055f0f414128987348b93033e01c"
     },
     "disabledSkins": {
-        "blockedUISkin": "s4265d3422894a7ab34eefc4bd0af188"
+        "blockedUISkin": "s4265d3422894a7ab34eefc4bd0af188",
+        "focusSkin": "sf1581f2e1434201895c3f4bcde12ea1"
     },
-    "focusskin": "sf1581f2e1434201895c3f4bcde12ea1",
     "id": "txtFileType",
+    "ide_onDone": "AS_TextField_ddb2b9acdf4b4230af299b2ac72ace2a",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
     "keyboardtype": "A",
-    "kuid": "f46a81e908374505b6d551aeaee6fb02",
+    "kuid": "bc1dbac5a6a948969981e4be0f6255d2",
     "mode": "A",
     "name": "kony.ui.TextBox2",
-    "parent": "flxMain",
+    "parent": "flxFileType",
     "pf": "frmCompare",
     "placeholderskin": "sc53055f0f414128987348b93033e01c",
     "retaincontentalignment": false,

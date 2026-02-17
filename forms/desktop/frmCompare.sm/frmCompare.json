@@ -15,6 +15,11 @@
         0
     ],
     "_percent_": true,
+    "_pxMenuIndex": [
+        2,
+        1,
+        4
+    ],
     "_skin_": "s109f23ca1c7487d8b72e84583185cf7",
     "_title_": null,
     "addWidgetsdone": false,
@@ -45,9 +50,9 @@
     "canUpdateUI": true,
     "canvasWidth": 1200,
     "children": [
-        "mainHdr",
+        "flxMainContainer",
         "flxMain",
-        "flxBody"
+        "flxSegResult"
     ],
     "containerweight": 100,
     "controllerInfo": {
@@ -58,7 +63,8 @@
     },
     "currentLocale": "default",
     "desktopweb": {
-        "needAppMenu": false
+        "needAppMenu": false,
+        "render": true
     },
     "device": "desktopweb",
     "displayorientation": 1,
@@ -84,16 +90,23 @@
     "iscustomlayout": false,
     "isvisible": true,
     "kiosk": {
-        "needAppMenu": false
+        "needAppMenu": false,
+        "render": false
     },
-    "kuid": "ba0be841e6644bdaa1f1e23c5c8694e1",
-    "layouttype": 2,
+    "kuid": "e19678c2918d48b1a2568261294edfcd",
+    "layouttype": 5,
     "name": "kony.ui.Form2",
+    "nativemac": {
+        "render": true
+    },
+    "nativewin": {
+        "render": true
+    },
     "needappmenu": false,
     "paddinginpixel": false,
     "platform": "desktopweb",
-    "prevDevice": "desktopweb",
-    "prevPlatform": "desktopweb",
+    "prevDevice": "nativemac",
+    "prevPlatform": "nativemac",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainscrollposition": false,

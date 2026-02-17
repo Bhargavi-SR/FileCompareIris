@@ -17,9 +17,9 @@
         "actions": [{
             "id": "NAVIGATE_TO_FORM__b7b2d76902d940ada1ff7166701b06c7",
             "type": "NAVIGATE_TO_FORM",
-            "formId": "frmBrowse",
-            "formKUID": "i131aad894714f3c9c2791336aacec13",
-            "projectName": "CompareFiles",
+            "formId": "frmBrowser",
+            "formKUID": "fa6e0022f2ce4bc88dc984fbd15e7f0e",
+            "projectName": "FileCompare",
             "mappings": {},
             "mappingsOrder": [],
             "enableMappingEditor": true,

@@ -1,0 +1,61 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "60dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s302a5feded449949a37f934a0757219",
+    "_text_": "Compare Documents",
+    "_top_": {
+        "type": "string",
+        "value": "150dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "300dp"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "desktopweb": {
+        "psp": {
+            "hoverSkin": "scda32a9e51644be81b9b084764a9727"
+        }
+    },
+    "disabledSkins": {
+        "blockedUISkin": "sad650e3b554410cb830f137fe29d4c9",
+        "pressedSkin": "se7a1b37f11b4bf5828530c358dac47d"
+    },
+    "displaytext": true,
+    "focusskin": "scda32a9e51644be81b9b084764a9727",
+    "id": "btnCompare",
+    "ide_onClick": "AS_Button_bbc3f937f6044e65a9d79d39bb1ed1a3",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "ide4f3621dd74b3ca953700af3d84fb8",
+    "name": "kony.ui.Button",
+    "parent": "flxMain",
+    "pf": "frmCompare",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

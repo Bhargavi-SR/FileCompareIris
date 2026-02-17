@@ -1,0 +1,167 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_data_": [
+        {
+            "lblLeftText": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "",
+                "type": "Label"
+            },
+            "lblRightText": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "",
+                "type": "Label"
+            },
+            "rchTxtLeft": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "",
+                "type": "RichText"
+            },
+            "rchTxtRight": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "",
+                "type": "RichText"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "00",
+    "desktop": {
+        "_data_": [
+            {
+                "rchTxtLeft": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "",
+                    "type": "RichText"
+                },
+                "rchTxtRight": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "",
+                    "type": "RichText"
+                }
+            }
+        ],
+        "rowTemplateId": "d6b24d6544644970a3c280688429df4c",
+        "rowtemplate": "flxMain",
+        "widgetdatamap": {
+            "flxCompareRow": "flxCompareRow",
+            "flxLeft": "flxLeft",
+            "flxMain": "flxMain",
+            "flxRight": "flxRight",
+            "flxSeparator": "flxSeparator",
+            "rchTxtLeft": "rchTxtLeft",
+            "rchTxtRight": "rchTxtRight"
+        }
+    },
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segCompare",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "a28422d8daad4b5986ef2054c3778a65",
+    "masterdata": {},
+    "mobile": {
+        "_data_": [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    },
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxSeg",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowcounter": 0,
+    "rowfocusskin": "se2760bdcf3d4cd3bb764d5017d8bee7",
+    "rowskin": "s163bb7e9abc40b884297744c5f5360f",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionHeaderTemplateId": null,
+    "sectionheaderskin": "sc0aa4280c0d4cc6be3d09ef19e30d88",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxCompareRow": "flxCompareRow",
+        "flxLeft": "flxLeft",
+        "flxMain": "flxMain",
+        "flxRight": "flxRight",
+        "flxSeparator": "flxSeparator",
+        "lblLeftText": "lblLeftText",
+        "lblRightText": "lblRightText",
+        "rchTxtLeft": "rchTxtLeft",
+        "rchTxtRight": "rchTxtRight"
+    },
+    "zindex": 1
+}

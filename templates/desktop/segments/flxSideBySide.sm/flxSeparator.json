@@ -21,7 +21,7 @@
     "_skin_": "sf4853e2d18744b5a7609cd0b0f700d7",
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "1dp"
     },
     "_width_": {
         "type": "string",
@@ -42,7 +42,7 @@
     "id": "flxSeparator",
     "info": null,
     "iscustomlayout": false,
-    "isvisible": true,
+    "isvisible": false,
     "kuid": "dab8dbce3f864f7bab9aae11bc40fc0f",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",

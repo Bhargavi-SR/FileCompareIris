@@ -22,7 +22,7 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "sece23d7344140888b573c6bfe22936e",
+    "_skin_": "s0504bd8246044398359aba70d3e0ca0",
     "_top_": {
         "type": "string",
         "value": "0dp"
@@ -47,10 +47,10 @@
         }
     },
     "disabledSkins": {
-        "blockedUISkin": "se10403881e545c88517e38d1704fe6e"
+        "blockedUISkin": "se10403881e545c88517e38d1704fe6e",
+        "focusSkin": "s055b30cc8544a4092521d1a3c930a38"
     },
     "enablescrolling": true,
-    "focusskin": "s055b30cc8544a4092521d1a3c930a38",
     "id": "flxMain",
     "info": null,
     "isTemplate": true,

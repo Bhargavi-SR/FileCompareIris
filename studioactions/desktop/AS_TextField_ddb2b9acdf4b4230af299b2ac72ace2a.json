@@ -1,0 +1,25 @@
+{
+    "AS_TextField_ddb2b9acdf4b4230af299b2ac72ace2a": {
+        "id": "AS_TextField_ddb2b9acdf4b4230af299b2ac72ace2a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "language": "js",
+        "eventType": "onDone",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onDone_h0ef2fc4e58e4aadad0a836e7a8c0928",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onClickCompare",
+            "display": "onClickCompare",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

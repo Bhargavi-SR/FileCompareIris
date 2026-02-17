@@ -1,0 +1,105 @@
+{
+    "classname": "fileCompareResult",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "bbf22017fdcf4c8fbd1a522393862c70",
+                    "paramList": [
+                        {
+                            "name": "fileConfig"
+                        }
+                    ],
+                    "propertyKey": "compareDocuments",
+                    "pw": {
+                        "displayName": "compareDocuments",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "be48e8c2c94448f8ac19d7f4efcae8e3",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "c92ef55d2e79405d84870acc7f786596",
+                    "originalPropertyKey": "serviceName",
+                    "propertyIndex": 2,
+                    "propertyKey": "serviceName",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "serviceName",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "be48e8c2c94448f8ac19d7f4efcae8e3",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "d5bb685598a744668f94272dafc5e095",
+                    "originalPropertyKey": "operationName",
+                    "propertyIndex": 3,
+                    "propertyKey": "operationName",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "operationName",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "be48e8c2c94448f8ac19d7f4efcae8e3",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "j6fc28aca50641d890d43d3d726f1679",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 4,
+                    "propertyKey": "compareResultsUIVis",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "compareResultsUI",
+                        "isHiddenInTool": false,
+                        "srcWidget": "flxData",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Switch",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "ae9dbaa143534dbcb668b54ce446620f"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcl",
+    "version": "1.0.0"
+}

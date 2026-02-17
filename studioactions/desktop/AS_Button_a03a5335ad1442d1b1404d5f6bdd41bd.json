@@ -1,0 +1,25 @@
+{
+    "AS_Button_a03a5335ad1442d1b1404d5f6bdd41bd": {
+        "id": "AS_Button_a03a5335ad1442d1b1404d5f6bdd41bd",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_be26382730c2463a8067eaeacf9b5323",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "browseDocument",
+            "display": "browseDocument",
+            "inputparams": [{
+                "name": "slot",
+                "value": "\"A\""
+            }],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

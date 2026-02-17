@@ -2,7 +2,7 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "160dp"
+        "value": "28%"
     },
     "_left_": {
         "type": "string",
@@ -25,7 +25,7 @@
     "_skin_": "sece23d7344140888b573c6bfe22936e",
     "_top_": {
         "type": "string",
-        "value": "128dp"
+        "value": "11%"
     },
     "_width_": {
         "type": "string",
@@ -39,9 +39,9 @@
         "value": "50%"
     },
     "children": [
-        "Label0jb9c8f0bca0f49",
-        "txtFileType",
-        "Button0d29e34326c7e40"
+        "flxFileType",
+        "lblHint",
+        "btnCompare"
     ],
     "clipbounds": false,
     "containerweight": 100,
@@ -54,11 +54,23 @@
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "h2c3ce2c5850474fad06c6dacbe7c8be",
+    "kuid": "d262a1c42c8142b196fef3a9f3d2fd1d",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
     "parent": "frmCompare",
     "pf": "frmCompare",
+    "responsiveconfig": {
+        "offset": {
+            "b1": 3,
+            "b2": 0,
+            "b3": 0
+        },
+        "span": {
+            "b1": 6,
+            "b2": 4,
+            "b3": 6
+        }
+    },
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,

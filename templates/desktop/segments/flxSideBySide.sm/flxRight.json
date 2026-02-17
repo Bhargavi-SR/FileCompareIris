@@ -1,8 +1,12 @@
 {
     "DNDConfig": null,
     "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
         "type": "string",
-        "value": "60dp"
+        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -18,7 +22,7 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "sece23d7344140888b573c6bfe22936e",
+    "_skin_": "s0504bd8246044398359aba70d3e0ca0",
     "_top_": {
         "type": "string",
         "value": "0dp"
@@ -28,10 +32,10 @@
         "value": "50%"
     },
     "allboxes": [],
-    "autogrowmode": 0,
+    "autogrowmode": 1,
     "canUpdateUI": true,
     "children": [
-        "lblRightText"
+        "rchTxtRight"
     ],
     "clipbounds": false,
     "containerId": true,
@@ -46,7 +50,7 @@
     "iscustomlayout": false,
     "isvisible": true,
     "kuid": "df78eb7ba9c4481887ee2ef580edc0a3",
-    "layouttype": 2,
+    "layouttype": 4,
     "name": "kony.ui.FlexContainer",
     "parent": "flxCompareRow",
     "pf": "flxSideBySide",

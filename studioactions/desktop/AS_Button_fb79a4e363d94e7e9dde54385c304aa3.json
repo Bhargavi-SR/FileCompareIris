@@ -7,7 +7,6 @@
             "name": "eventobject"
         }],
         "contextObj": {
-            "name": "frmBrowse",
             "type": "forms",
             "platform": null,
             "KUID": "i131aad894714f3c9c2791336aacec13"
