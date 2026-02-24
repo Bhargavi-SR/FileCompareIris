@@ -22,14 +22,14 @@
         0
     ],
     "_skin_": "s33441db47524f6189553eb5f59d6ae3",
-    "_text_": "RichText",
+    "_text_": "<link rel=\\\"manifest\\\" href=\\\"https://cdn01.boxcdn.net/_assets/img/favicons/manifest-rw1AEP.json\\\">",
     "_top_": {
         "type": "string",
         "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "99.99%"
     },
     "_wrapping_": 2,
     "canUpdateUI": true,

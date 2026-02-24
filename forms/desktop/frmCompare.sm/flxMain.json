@@ -2,7 +2,7 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "28%"
+        "value": "25%"
     },
     "_left_": {
         "type": "string",
@@ -61,14 +61,14 @@
     "pf": "frmCompare",
     "responsiveconfig": {
         "offset": {
-            "b1": 3,
-            "b2": 0,
-            "b3": 0
+            "b1": 4,
+            "b2": 3,
+            "b3": 2
         },
         "span": {
-            "b1": 6,
-            "b2": 4,
-            "b3": 6
+            "b1": 4,
+            "b2": 6,
+            "b3": 8
         }
     },
     "retaincontentalignment": false,

@@ -2,7 +2,7 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "28%"
+        "value": "25%"
     },
     "_left_": {
         "type": "string",
@@ -67,8 +67,8 @@
         },
         "span": {
             "b1": 8,
-            "b2": 4,
-            "b3": 6
+            "b2": 12,
+            "b3": 12
         }
     },
     "retaincontentalignment": false,

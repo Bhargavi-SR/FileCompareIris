@@ -61,6 +61,10 @@
             "name": "frmBrowserController"
         }
     },
+    "currentBreakpoint": {
+        "kuid": "b2",
+        "width": 1024
+    },
     "currentLocale": "default",
     "desktopweb": {
         "needAppMenu": false,
@@ -105,8 +109,8 @@
     "needappmenu": false,
     "paddinginpixel": false,
     "platform": "desktopweb",
-    "prevDevice": "nativemac",
-    "prevPlatform": "nativemac",
+    "prevDevice": "nativewin",
+    "prevPlatform": "nativewin",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainscrollposition": false,

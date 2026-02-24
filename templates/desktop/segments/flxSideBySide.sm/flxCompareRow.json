@@ -35,18 +35,20 @@
     "autogrowmode": 1,
     "canUpdateUI": true,
     "children": [
+        "lblLeftLineNo",
         "flxLeft",
         "flxSeparator",
+        "lblRightLineNo",
         "flxRight"
     ],
     "clipbounds": false,
     "containerId": true,
     "containerweight": 100,
     "disabledSkins": {
-        "blockedUISkin": "se10403881e545c88517e38d1704fe6e"
+        "blockedUISkin": "se10403881e545c88517e38d1704fe6e",
+        "focusSkin": "s055b30cc8544a4092521d1a3c930a38"
     },
     "enablescrolling": true,
-    "focusskin": "s055b30cc8544a4092521d1a3c930a38",
     "id": "flxCompareRow",
     "info": null,
     "iscustomlayout": false,

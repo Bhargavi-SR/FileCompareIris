@@ -57,6 +57,7 @@ define({
     voltmx.application.dismissLoadingScreen();
 
     if (!response || response.status !== "SUCCESS") {
+      this.view.segCompare.removeAll();
       alert("Comparison failed at server.");
       return;
     }
@@ -66,6 +67,7 @@ define({
   _onCompareFailure: function(error) {
     voltmx.application.dismissLoadingScreen();
     alert("Comparison failed: " + JSON.stringify(error));
+    this.view.segCompare.removeAll();
   },
 
   _getSkinByDiffType: function(type) {
@@ -73,13 +75,14 @@ define({
       ADDED: "sknFlxBG378723",    // Green background
       REMOVED: "sknFlxBG9e1023",  // Red background
       MODIFIED: "sknFlxBGeb8038", // Peach/Orange background
-      UNCHANGED: "sknFlxPlain"    // Transparent/White
+      UNCHANGED: "sknFlxBlank"    // Transparent/White
     };
-    return skins[type] || "sknFlxPlain";
+    return skins[type] || "sknFlxBlank";
   },
 
   _populateSegment: function(results) {
     if (!results || results.length === 0) {
+      alert("No differences detected. Both documents are identical.");
       this.view.segCompare.removeAll();
       return;
     }
@@ -88,24 +91,24 @@ define({
       const skin = this._getSkinByDiffType(item.diffType);
       const isModified = item.diffType === "MODIFIED";
 
-      // If text is empty, provide a newline so the RichText widget maintains height
       const leftData = (item.leftText && item.leftText.trim() !== "") ? item.leftText : "\n";
       const rightData = (item.rightText && item.rightText.trim() !== "") ? item.rightText : "\n";
 
       return {
-        "flxLeft": {
-          "skin": (item.diffType === "REMOVED" || isModified) ? skin : "sknFlxPlain"
+        "lblLeftLineNo" : item.leftLineNo, 
+        "lblRightLineNo": item.rightLineNo, 
+        "flxLeft"       : {
+          "skin": (item.diffType === "REMOVED" || isModified) ? skin : "sknFlxBlank"
         },
         "flxRight": {
-          "skin": (item.diffType === "ADDED" || isModified) ? skin : "sknFlxPlain"
+          "skin": (item.diffType === "ADDED" || isModified) ? skin : "sknFlxBlank"
         },
-        // Mapping to RichText widgets
         "rchTxtLeft": { "text": leftData },
         "rchTxtRight": { "text": rightData }
       };
     });
 
-    this.view.flxData.isVisible = true;
+    this.view.flxData.setVisibility(true);
     this.view.segCompare.setData(segData);
   }
 });

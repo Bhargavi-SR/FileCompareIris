@@ -18,7 +18,7 @@
     "_pxMenuIndex": [
         2,
         1,
-        4
+        2
     ],
     "_skin_": "s109f23ca1c7487d8b72e84583185cf7",
     "_title_": null,
@@ -59,6 +59,10 @@
             "channel": "desktop",
             "name": "frmHomeController"
         }
+    },
+    "currentBreakpoint": {
+        "kuid": "b3",
+        "width": 640
     },
     "currentLocale": "default",
     "desktopweb": {

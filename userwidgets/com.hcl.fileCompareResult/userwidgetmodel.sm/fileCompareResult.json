@@ -43,10 +43,11 @@
         "render": true
     },
     "disabledSkins": {
-        "blockedUISkin": "se10403881e545c88517e38d1704fe6e"
+        "blockedUISkin": "se10403881e545c88517e38d1704fe6e",
+        "focusSkin": "s055b30cc8544a4092521d1a3c930a38"
     },
     "enablescrolling": true,
-    "focusskin": "s055b30cc8544a4092521d1a3c930a38",
+    "focusskin": null,
     "id": "fileCompareResult",
     "info": null,
     "iscustomlayout": false,

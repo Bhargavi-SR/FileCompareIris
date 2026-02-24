@@ -35,13 +35,14 @@ define({
   browseDocument(slot) {
     const input = document.createElement('input');
     input.type = 'file';
-    input.accept = ".pdf,.doc,.docx,.xls,.xlsx,.txt";
+    input.accept = ".pdf,.doc,.docx,.xls,.xlsx,.txt,.csv"; //,.ppt,.pptx";
 
     input.onchange = (event) => {
       const [file] = event.target.files; 
       if (file) {
         const fileName = file.name;
         const extension = `.${fileName.split('.').pop().toLowerCase()}`;
+//         const extension = fileName.split('.').pop().toLowerCase();
 
         const reader = new FileReader();
         reader.onload = (e) => {

@@ -18,7 +18,7 @@
     "_pxMenuIndex": [
         2,
         1,
-        4
+        1
     ],
     "_skin_": "s109f23ca1c7487d8b72e84583185cf7",
     "_title_": null,
@@ -60,6 +60,10 @@
             "channel": "desktop",
             "name": "frmCompareController"
         }
+    },
+    "currentBreakpoint": {
+        "kuid": "b2",
+        "width": 1024
     },
     "currentLocale": "default",
     "desktopweb": {

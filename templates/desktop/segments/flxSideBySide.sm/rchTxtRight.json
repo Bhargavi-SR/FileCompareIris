@@ -29,7 +29,7 @@
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "99.99%"
     },
     "_wrapping_": 2,
     "canUpdateUI": true,
